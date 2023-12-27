@@ -1,0 +1,43 @@
+﻿Сборка начата 29.10.2023 15:15:18.
+Уровень детализации журнала: Normal.     1>Проект "D:\KPO_3sem\asm01\SE_Asm01\SE_Asm01.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "x64\Debug\SE_Asm01.tlog\".
+       InitializeBuildStatus:
+         Создание "x64\Debug\SE_Asm01.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       _MASM:
+         Assembling LP_asm.asm...
+         cmd.exe /C "C:\Users\Ваня\AppData\Local\Temp\tmp5fee3da488a94fe2a2d02c5f44db6557.cmd"
+         ml64.exe /c /nologo /Zi /Fo"x64\Debug\LP_asm.obj" /Fl"x64\Debug\\" /W3 /errorReport:prompt  /TaLP_asm.asm
+     1>LP_asm.asm(1): error A2008: syntax error : .
+     1>LP_asm.asm(2): error A2008: syntax error : .
+     1>LP_asm.asm(6): error A2034: must be in segment block
+     1>LP_asm.asm(8): error A2008: syntax error : .
+     1>LP_asm.asm(23): error A2070: invalid instruction operands
+     1>LP_asm.asm(24): error A2070: invalid instruction operands
+     1>LP_asm.asm(32): error A2008: syntax error : main
+     1>LP_asm.asm(32): error A2088: END directive required at end of file
+     1>LP_asm.asm(25): error A2006: undefined symbol : HW
+     1>LP_asm.asm(26): error A2006: undefined symbol : MessageBoxA
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\LP_asm.obj" /Fl"x64\Debug\\" /W3 /errorReport:prompt  /TaLP_asm.asm" с кодом "1".
+     1>Сборка проекта "D:\KPO_3sem\asm01\SE_Asm01\SE_Asm01.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\KPO_3sem\asm01\SE_Asm01\SE_Asm01.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект _MASM) -> 
+         LP_asm.asm(1): error A2008: syntax error : .
+         LP_asm.asm(2): error A2008: syntax error : .
+         LP_asm.asm(6): error A2034: must be in segment block
+         LP_asm.asm(8): error A2008: syntax error : .
+         LP_asm.asm(23): error A2070: invalid instruction operands
+         LP_asm.asm(24): error A2070: invalid instruction operands
+         LP_asm.asm(32): error A2008: syntax error : main
+         LP_asm.asm(32): error A2088: END directive required at end of file
+         LP_asm.asm(25): error A2006: undefined symbol : HW
+         LP_asm.asm(26): error A2006: undefined symbol : MessageBoxA
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\LP_asm.obj" /Fl"x64\Debug\\" /W3 /errorReport:prompt  /TaLP_asm.asm" с кодом "1".
+
+    Предупреждений: 0
+    Ошибок: 11
+
+Прошло времени 00:00:00.28
