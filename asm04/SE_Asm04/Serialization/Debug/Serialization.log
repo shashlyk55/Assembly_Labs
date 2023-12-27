@@ -1,0 +1,21 @@
+﻿Сборка начата 21.11.2023 18:36:43.
+Уровень детализации журнала: Normal.     1>Проект "D:\KPO_3sem\asm04\SE_Asm04\Serialization\Serialization.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Serialization.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\KPO_3sem\asm04\SE_Asm04\Debug\Serialization.exe" /INCREMENTAL /ILK:"Debug\Serialization.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\KPO_3sem\asm04\SE_Asm04\Debug\Serialization.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\KPO_3sem\asm04\SE_Asm04\Debug\Serialization.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Serialization.obj
+         Serialization.vcxproj -> D:\KPO_3sem\asm04\SE_Asm04\Debug\Serialization.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Serialization.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Serialization.tlog\Serialization.lastbuildstate".
+     1>Сборка проекта "D:\KPO_3sem\asm04\SE_Asm04\Serialization\Serialization.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.90
